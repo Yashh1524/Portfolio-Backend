@@ -32,6 +32,7 @@ app.use(
 	cors({
 		origin: [
 			"https://www.yashh1524.com",
+			"https://yashh1524.com",
             env.CLIENT_URL,
             env.ADMIN_URL
         ],
