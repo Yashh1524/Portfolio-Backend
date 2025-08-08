@@ -31,8 +31,6 @@ app.use(helmet());
 app.use(
 	cors({
 		origin: [
-            "https://yashh1524.com",
-            "https://www.yashh1524.com",
             env.CLIENT_URL,
             env.ADMIN_URL
         ],
